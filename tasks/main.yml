@@ -1,5 +1,4 @@
 ---
-
 - name: ensure apt_preferences include file for deb.nodesource.com is present
   copy:
     src: apt/preferences.d/deb.nodesource.com.pref

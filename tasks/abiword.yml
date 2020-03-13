@@ -1,5 +1,4 @@
 ---
-
 - name: Ensure abiword package is installed
   apt:
     pkg: abiword

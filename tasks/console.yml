@@ -1,5 +1,4 @@
 ---
-
 - name: ensure etherpad packages are installed
   apt:
     pkg: "{{ etherpad_console_packages if ansible_distribution_major_version|int > 8 else etherpad_console_packages_php5 }}"
