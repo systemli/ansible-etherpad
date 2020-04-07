@@ -36,7 +36,7 @@ etherpad_ssl_key: "/path-to-your/epl-server.key"
 etherpad_ssl_cert: "/path-to-your/epl-server.crt"
 etherpad_ssl_ca_intermediate_cert1: "/path-to-your/epl-intermediate-cert1.crt"
 etherpad_ssl_ca_intermediate_cert2: "/path-to-your/epl-intermediate-cert2.crt"
-etherpad_skin_name: "no-skin"
+etherpad_skin_name: "colibris"
 etherpad_db_type: dirty
 etherpad_users: []
 #  -
@@ -55,7 +55,7 @@ etherpad_pad_options_use_monospace_font: "false"
 etherpad_pad_options_user_name: "false"
 etherpad_pad_options_user_color: "false"
 etherpad_pad_options_rtl: "false"
-etherpad_pad_options_always_show_chat: "false"
+etherpad_pad_options_always_show_chat: "true"
 etherpad_pad_options_chat_and_users: "false"
 etherpad_pad_options_lang: "en-gb"
 etherpad_pad_shortcut_alt_f9: "true"
